@@ -22,7 +22,12 @@ import ReactDOM from 'react-dom/client';
 
 // import Memo from "./Memo";
 
-import UseMemo from"./UseMemo";
+// import UseMemo from"./UseMemo";
+
+// import ContextA from "./ContextA";
+
+import UseContextA from "./UseContextA";
+
 
 // ReactDOM.createRoot:
 // This method is part of the new React 18 rendering API.
@@ -49,8 +54,10 @@ root.render(
     {/* <UseEffect/> */}
     {/* <Fetch/> */}
     {/* <MultipleReturn/> */}
-      {/* <Memo/> */}
-      <UseMemo/>
+    {/* <Memo/> */}
+    {/* <UseMemo/> */}
+    {/* <ContextA/> */}
+    <UseContextA/>
   </React.StrictMode>
  
 );

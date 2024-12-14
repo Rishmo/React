@@ -26,7 +26,9 @@ import ReactDOM from 'react-dom/client';
 
 // import ContextA from "./ContextA";
 
-import UseContextA from "./UseContextA";
+// import UseContextA from "./UseContextA";
+
+import UseRefEx from "./UseRefEx";
 
 
 // ReactDOM.createRoot:
@@ -57,7 +59,8 @@ root.render(
     {/* <Memo/> */}
     {/* <UseMemo/> */}
     {/* <ContextA/> */}
-    <UseContextA/>
+   {/* <UseContextA/> */}
+   <UseRefEx/>
   </React.StrictMode>
  
 );

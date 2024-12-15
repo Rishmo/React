@@ -28,7 +28,11 @@ import ReactDOM from 'react-dom/client';
 
 // import UseContextA from "./UseContextA";
 
-import UseRefEx from "./UseRefEx";
+// import UseRefEx from "./UseRefEx";
+
+// import RouterExample from "./RouterExample";
+
+import ReactRouterNav from "./ReactRouterNav";
 
 
 // ReactDOM.createRoot:
@@ -60,7 +64,9 @@ root.render(
     {/* <UseMemo/> */}
     {/* <ContextA/> */}
    {/* <UseContextA/> */}
-   <UseRefEx/>
+   {/* <UseRefEx/> */}
+   {/* <RouterExample/> */}
+   <ReactRouterNav/>
   </React.StrictMode>
  
 );

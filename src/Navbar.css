@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Push logo to the left, ul to the right */
+    padding: 0 20px; /* Add some padding for spacing */
+    background-color: #f4f4f4; /* Optional: set a background color for the nav */
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+ul{
+    display: flex;
+    gap: 200px; /* Adds space between nav items */
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
